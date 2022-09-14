@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="">building Web apps with ASP.NET Core</a>.</p>
+</div>
+*@
+<div id="spellMakerBackground">
+    <form method="post">
+        <input id="spellName" type="text" name="SpellName" value="Name Spell" />
+
+        <table id="spellTable">
+
+        </table>
+        <input id="spellSubmit" type="submit" value="Create" />
+    </form>
+</div>
